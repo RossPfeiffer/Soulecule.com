@@ -1,6 +1,6 @@
 # soulecule.com
 
-> Pyramid ICO for the Multiverse Cardgame
+> ICO website 2.0
 
 ## Build Setup
 
