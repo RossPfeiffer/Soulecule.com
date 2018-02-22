@@ -1,0 +1,32 @@
+Home:
+	splash
+	subtle & intro w/ tabs & more imagery
+	paralax & accordian
+	subtle
+	quick soft
+
+ICO:
+	market
+
+How it Works:
+	user experience that demonstrates
+		[TAB]Gateway Pyramid
+			Spend ETH, Get Soulecules
+		With Soulecules
+			[TAB]Stake Cards
+			[TAB]Path //staking glyphs and sigils
+				2 Cards w/
+					Name
+					Picture
+					Glyphs
+					Mechanics stake voting Tree
+						How is the relationship triggered
+						Key aspect // glyph & sigil selection and/or stat 
+						What state// list of states potentially available to be effected
+							prevent state change //if privacy
+							Card states
+							Apply state change to // glyph & sigil selection and/or stat
+						The why // glyph & sigil selection and/or stat
+		With cards
+			[TAB]Exchange
+			[TAB]Battle
