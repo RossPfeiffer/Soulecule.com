@@ -2,11 +2,21 @@
   <div class="page-container">
     <md-toolbar id="ghost-bar" class="md-primary">
       <span class="md-title">Soulecule</span>
-      <menu>
-        <a href="#">Home</a>
-        <a href="#">ICO</a>
-        <a href="#">Explore Project</a>
-      </menu>
+      <nav>
+        <md-menu id="nav-home" md-direction="bottom-start" md-align-trigger :md-active.sync="navHomeOpened">
+          <md-button md-menu-trigger>Home</md-button>
+          <md-menu-content id="nav-home-content">
+            <md-menu-item>My Item 1</md-menu-item>
+            <md-menu-item>My Item 2</md-menu-item>
+            <md-menu-item>My Item 3</md-menu-item>
+          </md-menu-content>
+
+        </md-menu>
+        <md-menu>
+          <md-button>ICO</md-button>
+          <md-button>Explore Project</md-button>
+        </md-menu>
+      </nav>
     </md-toolbar> 
     <section id="splash">
       <div id="deep-space-bg"></div>
@@ -17,20 +27,7 @@
 
 <style lang="scss" scoped>
   #ghost-bar{position:fixed;background:#ffffff00;}
-  menu{
-    width:300px;
-    display:block;
-    position:absolute;
-    top:0px;
-    margin:0;
-    height:100%;
-    right:0px;
-  }
-  menu a{
-    font-size:17px;
-    height:100%;
-    line-height:100%;
-  }
+  
   #splash{
     width:100%;height:100vh;
     position:relative;
@@ -55,7 +52,31 @@
 export default {
   name: 'Reveal',
   data: () => ({
-    menuVisible: false
-  })
+    navHomeOpened: false
+  }),
+  created: function(){
+  var guy = this;console.log(guy);
+    setTimeout(function(){
+      var homeNavBtn = document.getElementById("nav-home");
+      console.log(homeNavBtn);
+      
+      
+      
+      homeNavBtn.addEventListener("mouseover", function( event ) {
+        console.log('moused over');
+        homeNavBtn.setAttribute("md-active", "true");
+        guy.navHomeOpened = true;
+      });
+      homeNavBtn.addEventListener("mouseout", function( event ) {
+        console.log('moused out');
+        homeNavBtn.setAttribute("md-active", "false");
+        guy.navHomeOpened = false;
+      }); 
+
+      var yyy = document.getElementById("nav-home-content");
+    },1);
+    
+    //
+  }
 }
 </script>
