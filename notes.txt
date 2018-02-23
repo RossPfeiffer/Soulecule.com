@@ -1,17 +1,21 @@
 Home:
 	splash
-	subtle & intro w/ tabs & more imagery
-	paralax & accordian
+	Features - subtle & intro w/ tabs & more imagery
+	Road Map - paralax & accordian
 	subtle
 	quick soft
 
 ICO:
 	market
 
-How it Works:
+Explore Project:
 	user experience that demonstrates
 		[TAB]Gateway Pyramid
-			Spend ETH, Get Soulecules
+			Spend ETH & Get:
+				//what would encourage one pyramid to drop over another? 
+				Bull Stake
+				Bear Stake	
+				Soulecules when you cash out
 		With Soulecules
 			[TAB]Stake Cards
 			[TAB]Path //staking glyphs and sigils
